@@ -1,0 +1,10 @@
+
+CURSO JAVA ATL ACADEMY
+**********************************************
+
+VARIABLES
+**********************************************
+java es de fuerte tipado
+
+clean code:::Forma de declarar variables minusculaMayuscula
+int diasCuenta || String nombreMascota
