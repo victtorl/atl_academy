@@ -8,3 +8,40 @@ java es de fuerte tipado
 
 clean code:::Forma de declarar variables minusculaMayuscula
 int diasCuenta || String nombreMascota
+
+clean code:::Los boleanos van como pregunta o afiramcion que se responde
+boleean isActive || archivoTerminado
+
+si una variable no va a cambiar despues de su asignacion usa (final)
+final int 67;		
+
+
+OPERADORES ARITMETICOS
+*********************************************
+* / + - 
+clean code::: para usar codigo limpio se debe dejar un espacio 
+int total = precio * cantidad + impuesto - descuento;
+
+
+INICIO DE CUALQUIER PROGRAMA JAVA
+*********************************************
+public static void main(String[] args)
+
+
+TIPOS DE MODIFICADOR
+*********************************************
+ACCESO::::Controlan si pueden ver el codigo desde fuera
+public, private, protected
+
+
+OTRO:::::Controla como se comporta el codigo o la memoria del elemento
+static, final, abstract
+
+static (variables compartidad o contadores)
+static (funciones de usa rapido qeu no mantiene un estado)
+tip ||||| un metodo static se llama SIN INSTANCIAR
+
+
+
+
+
