@@ -44,4 +44,37 @@ tip ||||| un metodo static se llama SIN INSTANCIAR
 
 
 
+::::::::::::::::::::::::::::DEFINICIONES PARA ENTREVISTAS:::::::::::::::::::::::::::::::::::::::::::::::::
+JAVA: Es un lenguaje de programacion orientado a objetos de alto nivel(lo usan los humanos)
+esta diseñado pra ser independiente de la plataforma lo puede ejecutar en una maquina que tenga JVM(java virtual machine)
+
+
+JVM:Es una maquina bastracta qeue permite la ejecucionde programas en java
+JDK:Es el kit necesrio para la ejecucion de progrmas en JAVA
+JRE:Es el combo necesario para la ejecucion deprogrmas en JAVA
+
+CONCEPTOS DE POO:::::::
+
+POLIMORFISMO::Es la capacidade de adaptarse de una clase u objeto ante diferentes circunstancias
+
+INTERFAZ::Es una Clase que DEFINE como se debe comportar una clase pero NO SE IMPLEMENTA
+-Los atributos definidos en una Interfaz seimpre son publicos estaticos y finales
+-Una clase puede implementar varias interfaces--
+-Logica de implementacion: "puede hacer"  CAPACIDAD
+
+CLASE ABSTRACTA::No se  pueden instanciar directamente sirve como molde para que se implementen por clases hijas
+-Herencia obligatoria, todos los metodos deben ser implementados,menos los implementrados 
+-Puede tener metodos Normales ose implementados
+-Una clase hija solo hereda una clase abstracta--
+-Logica de implementacion: "es un" IDENTIDAD
+
+HERENCIA::Es un mecanismo en el cual un clase recibe caracteristicas de otra 
+
+
+
+
+
+
+
+
 
