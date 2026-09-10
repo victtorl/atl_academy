@@ -55,8 +55,6 @@ JRE:Es el combo necesario para la ejecucion deprogrmas en JAVA
 
 CONCEPTOS DE POO:::::::
 
-POLIMORFISMO::Es la capacidade de adaptarse de una clase u objeto ante diferentes circunstancias
-
 INTERFAZ::Es una Clase que DEFINE como se debe comportar una clase pero NO SE IMPLEMENTA
 -Los atributos definidos en una Interfaz seimpre son publicos estaticos y finales
 -Una clase puede implementar varias interfaces--
@@ -69,6 +67,10 @@ CLASE ABSTRACTA::No se  pueden instanciar directamente sirve como molde para que
 -Logica de implementacion: "es un" IDENTIDAD
 
 HERENCIA::Es un mecanismo en el cual un clase recibe caracteristicas de otra 
+
+POLIMORFISMO::Es la capacidade de adaptarse de una clase u objeto ante diferentes circunstancias
+
+
 
 
 
