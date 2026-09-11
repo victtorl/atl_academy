@@ -68,7 +68,31 @@ CLASE ABSTRACTA::No se  pueden instanciar directamente sirve como molde para que
 
 HERENCIA::Es un mecanismo en el cual un clase recibe caracteristicas de otra 
 
-POLIMORFISMO::Es la capacidade de adaptarse de una clase u objeto ante diferentes circunstancias
+POLIMORFISMO::Es la capacidade de como  objetos diferentes [instancias de clases] responden
+de manera diferente ante un metodo de otra clase
+-Aveces hay sobreescritura de metodos con @override(dinamico) por eso exixsten dos clases de polimorfismo
+-Hay [redefinicion del comportamiento] de la clase padre
+Ejemplo: Hay una clase Animal que tiene metodo hacerSonido, 2 clases Perro, Gato 
+usan el metodo hacerSonido pero uno dice "miau" el otro "guau"
+
+polimorfismo dinamico::
+-Usa @override
+-Cuando se implementa un interfaz
+
+polimorfismo estático::
+-No usa @override
+-Utiliza la sobrecarga de metodos Overlading (se implementan metodos con diferentes parametros)
+-Mismo nombre diferentes parámetros
+-Me da flexibilidad para realizar la misma accion logica con diferentes tipos de datos
+
+
+
+
+
+
+
+
+
 
 
 
