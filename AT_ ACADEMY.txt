@@ -12,6 +12,8 @@ int diasCuenta || String nombreMascota
 clean code:::Los boleanos van como pregunta o afiramcion que se responde
 boleean isActive || archivoTerminado
 
+clean code::: Usar nomenclatura PascalCase
+
 si una variable no va a cambiar despues de su asignacion usa (final)
 final int 67;		
 
@@ -75,15 +77,23 @@ de manera diferente ante un metodo de otra clase
 Ejemplo: Hay una clase Animal que tiene metodo hacerSonido, 2 clases Perro, Gato 
 usan el metodo hacerSonido pero uno dice "miau" el otro "guau"
 
-polimorfismo dinamico::
--Usa @override
--Cuando se implementa un interfaz
 
 polimorfismo estático::
 -No usa @override
--Utiliza la sobrecarga de metodos Overlading (se implementan metodos con diferentes parametros)
--Mismo nombre diferentes parámetros
+-Utiliza la sobrecarga de metodos [Overlading] (se implementan metodos con diferentes parametros)
+-Overloading solo se usa para contructores y metodos
+-Varios metodos con el  mismo nombre pero con diferentes parámetros
 -Me da flexibilidad para realizar la misma accion logica con diferentes tipos de datos
+
+polimorfismo dinamico::
+-Usa @override
+-Cuando se implementa una interfaz
+-Cuando la descicion de que metodo ejecutar cambia mientras el progrma se esta ejecutando
+
+
+CONSTRUCTORES::El constructor tiene el mismo nombre que la clase
+-En el polimorfismos estatico se usan varios constructores con diferentes parametros
+
 
 
 
