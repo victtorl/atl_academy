@@ -56,7 +56,7 @@ public static void main(String[] args) {
 
     //POLIMORFISMO ESTATICO los parametros son diferentes en los constructores
     UsuarioYoutube usuariox=new UsuarioYoutube("Juan Cualquiera");
-    UsuarioYoutube usuariop=new UsuarioYoutube("Miracle",true);
+    UsuarioYoutube usuariop=new UsuarioYoutube("Miracle Premiun",true);
 }
 
 
