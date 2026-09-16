@@ -1,7 +1,13 @@
 import oveloading.Usuario;
+import polimorfismo.insecto.InsectoFact;
+import polimorfismo.pokemon.PokemonFuego;
+import polimorfismo.usuario.UsuarioYoutube;
 import poofino.Animal;
 import poofino.polimorfismo.Pokemon;
 import poofino.polimorfismo.TrabajadorObra;
+
+
+public class Main{
 
 public static void main(String[] args) {
     System.out.println(CalculadoraSuma(5,8));
@@ -36,6 +42,21 @@ public static void main(String[] args) {
 
     System.out.println("El usuario "+carlos.getNombre()+" tiene subscripcion?"+carlos.isPremiun());
     System.out.println("El usuario "+molleja.getNombre()+" tiene subscripcion? "+molleja.isPremiun());
+
+   //POLIMORFISMO DINAMICO @OVERRIDE
+    PokemonFuego.Arcanine arcanine = new PokemonFuego.Arcanine();
+    arcanine.LanzarAtaque();
+    PokemonFuego.Ponita ponita = new PokemonFuego.Ponita();
+    ponita.LanzarAtaque();
+
+    InsectoFact.Grillo  grillo = new InsectoFact.Grillo();
+    grillo.TipoMovimiento();
+    InsectoFact.Gusano gusano = new InsectoFact.Gusano();
+    gusano.TipoMovimiento();
+
+    //POLIMORFISMO ESTATICO los parametros son diferentes en los constructores
+    UsuarioYoutube usuariox=new UsuarioYoutube("Juan Cualquiera");
+    UsuarioYoutube usuariop=new UsuarioYoutube("Miracle",true);
 }
 
 
@@ -113,4 +134,6 @@ public static class Pikachu extends Pokemon{
     public String LanzarAtaque(){
        return name+" Lanza Impact Trueno";
    }
+}
+
 }
