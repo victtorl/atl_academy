@@ -61,12 +61,19 @@ INTERFAZ::Es una Clase que DEFINE como se debe comportar una clase pero NO SE IM
 -Los atributos definidos en una Interfaz seimpre son publicos estaticos y finales
 -Una clase puede implementar varias interfaces--
 -Logica de implementacion: "puede hacer"  CAPACIDAD
+ uso::Si colo quieres que cumplan con una misma regla o comportamiento usa interfaz
+
 
 CLASE ABSTRACTA::No se  pueden instanciar directamente sirve como molde para que se implementen por clases hijas
 -Herencia obligatoria, todos los metodos deben ser implementados,menos los implementrados 
 -Puede tener metodos Normales ose implementados
 -Una clase hija solo hereda una clase abstracta--
--Logica de implementacion: "es un" IDENTIDAD
+-Logica de implementacion: "ES UN" IDENTIDAD
+ uso:: Se debe usar cuando quieres crear una plantilla base de un grupo de clases estrechamente relacionadas 
+ uso:: Cuando tienes una clase generica que necesita ser instanciada 
+ uso:: Cuando tines clases que compartenn mucho codigo interno use [clase abstracta]
+Ejemplo: Vehiculo sera la calse abstracta pues se tiene para instanciar moto carro motocar
+
 
 HERENCIA::Es un mecanismo en el cual un clase recibe caracteristicas de otra 
 
@@ -95,11 +102,21 @@ CONSTRUCTORES::El constructor tiene el mismo nombre que la clase
 -En el polimorfismos estatico se usan varios constructores con diferentes parametros
 
 
+FIRMA DEL METODO:: Este concepto significa que la clase que implementa un metodo debe tener todos los parametros
+debe ser identico tanto en nombre como en parametros
 
 
 
 
 
+
+*********************REGLAS JAVA*****************
+ -Si la clase padre tiene un constructor con parametros (y no tiene uno vacio)
+  entonces la clase hija esta obligada a crear su propio contrcutor
+  y llamar a super()
+
+ -Si tiene un constructor solo con variables inicalizadas pero sin parametros
+  entonces no es neceasrio llamar a super
 
 
 
