@@ -2,20 +2,24 @@
 CURSO JAVA ATL ACADEMY
 **********************************************
 
-VARIABLES
+VARIABLES Y METODOS
 **********************************************
 java es de fuerte tipado
 
-clean code:::Forma de declarar variables minusculaMayuscula
+clean code:::Forma de declarar variables camelCase
 int diasCuenta || String nombreMascota
+
+clean code::: los metodos y variables usan camelCase
 
 clean code:::Los boleanos van como pregunta o afiramcion que se responde
 boleean isActive || archivoTerminado
 
-clean code::: Usar nomenclatura PascalCase
-
 si una variable no va a cambiar despues de su asignacion usa (final)
 final int 67;		
+
+CLASES E INTERFACES
+**********************************************
+clean code::: las clases e interfaces usan PascalCase
 
 
 OPERADORES ARITMETICOS
@@ -121,13 +125,22 @@ debe ser identico tanto en nombre como en parametros
 
 
 
+****************CONCEPTOS SPRING*****************
+  ::JPA 
+  relaciona una clase de java con una tabla de base de datos
+  permite hacer un CRUD
+
+ 
+**************LINK CONVERSACION********************
+https://share.gemini.google/aX6xWwiunPMK
 
 
 
 
+*******************FUNCIONE UTILE***************
 
-
-
+compareTo(Bigdecimal) -->puede dar==> numNega Cero numPosi 
+se usa compareTo() cuando no se puede usar < = > porqu estos solo son para primitivos
 
 
 
